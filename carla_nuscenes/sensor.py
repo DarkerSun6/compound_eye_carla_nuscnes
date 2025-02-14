@@ -1,6 +1,12 @@
 import numpy as np
 import carla
 from .actor import Actor
+import open3d as o3d
+import copy
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import axes3d
+import matplotlib
+
 
 def parse_image(image):
     array = np.ndarray(
@@ -9,20 +15,68 @@ def parse_image(image):
     return array
 
 def parse_lidar_data(lidar_data):
-    points = []
-    current_channel = 0
-    end_idx = lidar_data.get_point_count(current_channel)
-    for idx,data in enumerate(lidar_data):
-        point = [data.point.x,data.point.y,data.point.z,data.intensity,current_channel]
-        if idx==end_idx:
-            current_channel+=1
-            end_idx+=lidar_data.get_point_count(current_channel)
-        points.append(point)
-    return np.array(points)
+    # for i in range(len(lidar_data)):
+    #     lidar_data[i].point.y *= -1
+    points = np.frombuffer(lidar_data.raw_data, dtype=np.dtype('f4'))
+    points = copy.deepcopy(points)
+    points = np.reshape(points, (int(points.shape[0] / 4), 4))
+    points[:, 1] = -points[:, 1]
+    return points
+
+    # points = []
+    # current_channel = 0
+    # end_idx = lidar_data.get_point_count(current_channel)
+    # for idx,data in enumerate(lidar_data):
+    #     point = [data.point.x,data.point.y,data.point.z,data.intensity,current_channel]
+    #     if idx==end_idx:
+    #         current_channel+=1
+    #         end_idx+=lidar_data.get_point_count(current_channel)
+    #     points.append(point)
+    # return np.array(points)
 
 def parse_radar_data(radar_data):
-    points = np.frombuffer(radar_data.raw_data, dtype=np.dtype('f4')).copy()
-    return points
+    points_1 = np.frombuffer(radar_data.raw_data, dtype=np.dtype('f4'))
+    points_1 = np.reshape(points_1, (len(radar_data), 4))
+    # print(points_1)
+    l=np.cos(points_1[:,2])*points_1[:,3]
+    z=np.sin(points_1[:,2])*points_1[:,3]
+    x=np.cos(points_1[:,1])*l
+    y=np.sin(points_1[:,1])*l
+    
+    # plt.figure("3D Scatter", facecolor="lightgray",figsize=(20,20),dpi=80)
+    # ax3d = plt.gca(projection="3d") 
+    
+    # ax3d.scatter(x, y, z, s=10, cmap="jet", marker="o")
+    # ax3d.view_init(elev=0, azim=-70)
+    # #ax3d.set_yticks(np.arange(0, 100, 10))
+    # plt.show()
+
+    pcd = o3d.geometry.PointCloud()
+    # 将雷达数据转换为点云坐标
+    points = []
+    for i in range(len(x)):
+        points.append([x[i], y[i], z[i]])
+    # for detection in radar_data:
+    #     depth = detection.depth
+    #     azimuth = np.radians(detection.azimuth)
+    #     altitude = np.radians(detection.altitude)
+        
+    #     x = depth * np.cos(altitude) * np.sin(azimuth)
+    #     y = depth * np.cos(altitude) * np.cos(azimuth)
+    #     z = depth * np.sin(altitude)
+        
+    #     points.append([x, y, z])
+    
+    # 将点添加到点云中
+    pcd.points = o3d.utility.Vector3dVector(points)
+    
+    # 保存点云到PCD文件
+    # o3d.io.write_point_cloud(filename, pcd)
+
+    # points = np.frombuffer(radar_data.raw_data, dtype=np.dtype('f4')).copy()
+    # points = np.reshape(points, (-1, 4))
+    # return points
+    return pcd
 
 def parse_data(data):
     if isinstance(data,carla.Image):

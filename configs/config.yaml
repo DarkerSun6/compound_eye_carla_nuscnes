@@ -1,5 +1,5 @@
 dataset:
-  root: "./dataset"
+  root: "./dataset_or"
   version: "v1.14"
 
 client:
@@ -8,16 +8,16 @@ client:
   time_out: 10.0
 
 sensors:
-  !include ./configs/sensors.yaml
+  !include carla_nuscenes/configs/sensors_or.yaml
 
 categories:
-  !include ./configs/categories.yaml
+  !include carla_nuscenes/configs/categories.yaml
 
 attributes:
-  !include ./configs/attributes.yaml
+  !include carla_nuscenes/configs/attributes.yaml
 
 visibility:
-  !include ./configs/visibility.yaml 
+  !include carla_nuscenes/configs/visibility.yaml 
 
 worlds:  #map
   - 
@@ -27,7 +27,7 @@ worlds:  #map
       fixed_delta_seconds: 0.01
     captures: #log
       - 
-        date: "2023-01-09"
+        date: "2024-06-19"
         time: "10-45-20"
         timezone: "+0800"
         capture_vehicle: "c0003"
@@ -71,11 +71,11 @@ worlds:  #map
                   y: 16.47465705871582
                   z: 0.5999999642372131
             vehicles:
-              !include ./configs/vehicles.yaml
+              !include carla_nuscenes/configs/vehicles.yaml
             walkers:
-              !include ./configs/walkers.yaml
+              !include carla_nuscenes/configs/walkers.yaml
             calibrated_sensors:
-              !include ./configs/calibrated_sensors.yaml
+              !include carla_nuscenes/configs/calibrated_sensors_or.yaml
             description:
               "test1"
           - 
@@ -116,20 +116,20 @@ worlds:  #map
                   y: 16.47465705871582
                   z: 0.5999999642372131
             vehicles:
-              !include ./configs/vehicles.yaml
+              !include carla_nuscenes/configs/vehicles.yaml
             walkers:
-              !include ./configs/walkers.yaml
+              !include carla_nuscenes/configs/walkers.yaml
             calibrated_sensors:
-              !include ./configs/calibrated_sensors.yaml
+              !include carla_nuscenes/configs/calibrated_sensors_or.yaml
             description:
               "test2"
           - 
-            count: 5
+            count: 1
             custom: False
             collect_time: 2
             keyframe_time: 0.5
             ego_bp_name: "vehicle.tesla.model3"
             calibrated_sensors:
-              !include ./configs/calibrated_sensors.yaml
+              !include carla_nuscenes/configs/calibrated_sensors_or.yaml
             description:
               "test"

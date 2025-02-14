@@ -1,0 +1,407 @@
+
+CameraRGBBaseOptions: &CameraRGBBaseOptions
+  "image_size_x": "640"
+  "image_size_y": "640"
+  "sensor_tick": "0.08333333"   #传感器采集图像的时间间隔，单位为秒，时间间隔设置为0.083333秒，相当于每秒 12 帧（1 / 0.083333 ≈ 12）
+  "fstop": "1.8"
+  "shutter_speed": "50.0" #快门速度，单位 (次数/秒)，对应nuscenes数据集的20ms的快门速度
+
+CameraRGBBaseOptions2: &CameraRGBBaseOptions2
+  "image_size_x": "1920"
+  "image_size_y": "1080"
+  "sensor_tick": "0.08333333"
+  "fstop": "1.8"
+  "shutter_speed": "50.0" 
+
+RadarBaseOptions: &RadarBaseOptions
+  'horizontal_fov': '80'
+  'vertical_fov': '30'
+  'points_per_second': '15000'   #所有激光器每秒产生的点数
+  'range': '250'                #测量/射线投射的最大距离（以米为单位）
+  'sensor_tick': '0.076923'     #传感器捕获之间的模拟秒数，1/13
+
+sensors:
+  #-----------camera----------
+  # -
+  #   name: "MAIN_CAM_RGB"
+  #   bp_name: 'sensor.camera.rgb'
+  #   location: 
+  #     x: 1.2
+  #     y: 0.0
+  #     z: 1.8
+  #   rotation: 
+  #       yaw: 360.0
+  #       pitch: -0.0
+  #       roll: 0.0
+  #   options: 
+  #     <<: *CameraRGBBaseOptions2
+  #     "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_0"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 1.1
+      y: -0.17321
+      z: 1.8
+    rotation: 
+      yaw: 299.9993
+      pitch: -0.0
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_1"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.17321
+        y: -0.1
+        z: 1.8
+      rotation: 
+        yaw: 330.0007
+        pitch: -0.0
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_2"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.2
+        y: 0.0
+        z: 1.8
+      rotation: 
+        yaw: 360.0
+        pitch: -0.0
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_3"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.17321
+        y: 0.1
+        z: 1.8
+      rotation: 
+        yaw: 389.9993
+        pitch: -0.0
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_4"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.1
+        y: 0.17321
+        z: 1.8
+      rotation: 
+        yaw: 420.0007
+        pitch: -0.0
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_5"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.04864
+        y: -0.18153
+        z: 1.8684
+      rotation: 
+        yaw: 284.99976
+        pitch: 19.99941
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_6"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.13289
+        y: -0.13289
+        z: 1.8684
+      rotation: 
+        yaw: 315.0
+        pitch: 19.99928
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_7"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.18153
+        y: -0.04864
+        z: 1.8684
+      rotation: 
+        yaw: 345.00024
+        pitch: 19.99941
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_8"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.18153
+        y: 0.04864
+        z: 1.8684
+      rotation: 
+        yaw: 374.99976
+        pitch: 19.99941
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_9"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.13289
+        y: 0.13289
+        z: 1.8684
+      rotation: 
+        yaw: 405.0
+        pitch: 19.99928
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_10"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.04864
+        y: 0.18153
+        z: 1.8684
+      rotation: 
+        yaw: 435.00024
+        pitch: 19.99941
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_11"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.04864
+        y: -0.18153
+        z: 1.7316
+      rotation: 
+        yaw: 284.99976
+        pitch: -19.99941
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_12"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.13289
+        y: -0.13289
+        z: 1.7316
+      rotation: 
+        yaw: 315.0
+        pitch: -19.99928
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_13"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.18153
+        y: -0.04864
+        z: 1.7316
+      rotation: 
+        yaw: 345.00024
+        pitch: -19.99941
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_14"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.18153
+        y: 0.04864
+        z: 1.7316
+      rotation: 
+        yaw: 374.99976
+        pitch: -19.99941
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_15"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 1.13289
+      y: 0.13289
+      z: 1.7316
+    rotation: 
+      yaw: 405.0
+      pitch: -19.99928
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+      name: "MULTI_CAM_RGB_16"
+      bp_name: 'sensor.camera.rgb'
+      location: 
+        x: 1.04864
+        y: 0.18153
+        z: 1.7316
+      rotation: 
+        yaw: 435.00024
+        pitch: -19.99941
+        roll: 0.0
+      options: 
+        <<: *CameraRGBBaseOptions
+        "fov": "60"
+
+
+  #-----------radar----------
+  - 
+    name: "RADAR_FRONT"
+    bp_name: 'sensor.other.radar'
+    location: 
+      x: 1.5
+      y: 0
+      z: 0.5
+    rotation:
+      yaw: 0
+      pitch: 0
+      roll: 0
+    options: 
+        <<: *RadarBaseOptions
+  - 
+    name: "RADAR_FRONT_RIGHT"
+    bp_name: 'sensor.other.radar'
+    location: 
+      x: 1.5
+      y: 0.7
+      z: 0.5
+    rotation:
+      yaw: 90
+      pitch: 0
+      roll: 0
+    options: 
+        <<: *RadarBaseOptions
+  - 
+    name: "RADAR_FRONT_LEFT"
+    bp_name: 'sensor.other.radar'
+    location: 
+      x: 1.5
+      y: -0.7
+      z: 0.5
+    rotation:
+      yaw: -90
+      pitch: 0
+      roll: 0
+    options: 
+        <<: *RadarBaseOptions
+  - 
+    name: "RADAR_BACK_RIGHT"
+    bp_name: 'sensor.other.radar'
+    location: 
+      x: -1.5
+      y: 0.7
+      z: 0.5
+    rotation:
+      yaw: 180
+      pitch: 0
+      roll: 0
+    options: 
+        <<: *RadarBaseOptions
+  - 
+    name: "RADAR_BACK_LEFT"
+    bp_name: 'sensor.other.radar'
+    location: 
+      x: -1.5
+      y: -0.7
+      z: 0.5
+    rotation:
+      yaw: 180
+      pitch: 0
+      roll: 0
+    options: 
+        <<: *RadarBaseOptions
+
+  #-----------lidar----------
+  - 
+    name: 'LIDAR_TOP'
+    bp_name: 'sensor.lidar.ray_cast'
+    location: 
+      x: 0.0
+      y: 0.0
+      z: 2.0
+    rotation:
+      yaw: 0.0
+      pitch: 0.0
+      roll: 0.0
+    options: 
+      'channels': '32'                  #激光器的数量
+      'points_per_second': '1400000'    #所有激光器每秒产生的点数
+      'range': '70.0'                     #测量/射线投射的最大距离（以米为单位）
+      'upper_fov': '10'                 #最高激光的角度（以度为单位）
+      'lower_fov': '-30'                #最低激光的角度（以度为单位）
+      'horizontal_fov': '360'           #水平视野以度为单位
+      'sensor_tick': '0.05'             #传感器捕获之间的模拟秒数，20Hz
+      'rotation_frequency': '100'       #激光雷达旋转频率，对应1/fixed_delta_seconds
+
+  #-----------gnss----------
+  - 
+    name: "GNSS"
+    bp_name: 'sensor.other.gnss'
+    location: 
+      x: 0
+      y: 0
+      z: 0
+    rotation:
+      yaw: 0
+      pitch: 0
+      roll: 0
+    options: ~
+  #-----------imu----------
+  - 
+    name: "IMU"
+    bp_name: 'sensor.other.imu'
+    location: 
+      x: -0.7
+      y: 0
+      z: 0
+    rotation:
+      yaw: 0
+      pitch: 0
+      roll: 0
+    options: ~
+  # -
+  #   name: "viz"
+  #   bp_name: 'sensor.camera.rgb'
+  #   location: 
+  #     x: 0
+  #     y: 0
+  #     z: 2
+  #   rotation:
+  #     yaw: 0
+  #     pitch: 0
+  #     roll: 0
+  #   options: 
+  #       <<: *CameraRGBBaseOptions
+  #       "fov": "60"

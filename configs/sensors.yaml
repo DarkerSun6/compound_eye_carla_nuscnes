@@ -1,26 +1,74 @@
 #-----------camera----------
 -
-    name: "CAM_FRONT"
+    name: "BEV_CAM_RGB"
+    modality: 'camera_bev'
+
+-
+    name: "MULTI_CAM_RGB_0"
     modality: 'camera'
 
-- 
-    name: "CAM_FRONT_RIGHT"
+-
+    name: "MULTI_CAM_RGB_1"
     modality: 'camera'
 
-- 
-    name: "CAM_FRONT_LEFT"
+-
+    name: "MULTI_CAM_RGB_2"
     modality: 'camera'
 
-- 
-    name: "CAM_BACK_LEFT"
+-
+    name: "MULTI_CAM_RGB_3"
     modality: 'camera'
 
-- 
-    name: "CAM_BACK"
+-
+    name: "MULTI_CAM_RGB_4"
     modality: 'camera'
 
-- 
-    name: "CAM_BACK_RIGHT"
+-
+    name: "MULTI_CAM_RGB_5"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_6"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_7"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_8"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_9"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_10"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_11"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_12"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_13"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_14"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_15"
+    modality: 'camera'
+
+-
+    name: "MULTI_CAM_RGB_16"
     modality: 'camera'
 
 #-----------radar----------

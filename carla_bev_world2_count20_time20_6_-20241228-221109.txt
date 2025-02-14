@@ -1,0 +1,1470 @@
+---------------------------------------------------
+{'current_world_index': 1, 'current_capture_index': 0, 'current_scene_index': 0, 'current_scene_count': 104}
+---------------------------------------------------
+the current world index is Town02_Opt
+---------------------------------------------------
+generate world start!
+generate world success!
+maps/083f5f3108b15e9aba213bac495e0a4b.png
+the current captrue index is c2001
+---------------------------------------------------
+the all scene count is 120
+---------------------------------------------------
+the current scene index is 0
+---------------------------------------------------
+the current scene count is 104
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   21
+need 81 vehicles and 111 walkers
+spawned 80 vehicles and 90 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 7
+frame count: 99
+npc_view_all: 6
+frame count: 149
+npc_view_all: 7
+frame count: 199
+npc_view_all: 7
+frame count: 249
+npc_view_all: 6
+frame count: 299
+npc_view_all: 7
+frame count: 349
+npc_view_all: 8
+frame count: 399
+npc_view_all: 8
+frame count: 449
+npc_view_all: 5
+frame count: 499
+npc_view_all: 5
+frame count: 549
+npc_view_all: 4
+frame count: 599
+npc_view_all: 5
+frame count: 649
+npc_view_all: 5
+frame count: 699
+npc_view_all: 5
+frame count: 749
+npc_view_all: 9
+frame count: 799
+npc_view_all: 12
+frame count: 849
+npc_view_all: 12
+frame count: 899
+npc_view_all: 14
+frame count: 949
+npc_view_all: 13
+frame count: 999
+npc_view_all: 13
+frame count: 1049
+npc_view_all: 13
+frame count: 1099
+npc_view_all: 13
+frame count: 1149
+npc_view_all: 12
+frame count: 1199
+npc_view_all: 12
+frame count: 1249
+npc_view_all: 12
+frame count: 1299
+npc_view_all: 11
+frame count: 1349
+npc_view_all: 9
+frame count: 1399
+npc_view_all: 8
+frame count: 1449
+npc_view_all: 7
+frame count: 1499
+npc_view_all: 8
+frame count: 1549
+npc_view_all: 8
+frame count: 1599
+npc_view_all: 9
+frame count: 1649
+npc_view_all: 8
+frame count: 1699
+npc_view_all: 8
+frame count: 1749
+npc_view_all: 8
+frame count: 1799
+npc_view_all: 8
+frame count: 1849
+npc_view_all: 8
+frame count: 1899
+npc_view_all: 8
+frame count: 1949
+npc_view_all: 8
+frame count: 1999
+npc_view_all: 8
+------------------------------------------------------------------------------------------------------
+the current scene count is 105
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   16
+need 52 vehicles and 118 walkers
+spawned 51 vehicles and 102 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 10
+frame count: 99
+npc_view_all: 11
+frame count: 149
+npc_view_all: 12
+frame count: 199
+npc_view_all: 12
+frame count: 249
+npc_view_all: 12
+frame count: 299
+npc_view_all: 13
+frame count: 349
+npc_view_all: 12
+frame count: 399
+npc_view_all: 12
+frame count: 449
+npc_view_all: 10
+frame count: 499
+npc_view_all: 10
+frame count: 549
+npc_view_all: 9
+frame count: 599
+npc_view_all: 11
+frame count: 649
+npc_view_all: 8
+frame count: 699
+npc_view_all: 10
+frame count: 749
+npc_view_all: 10
+frame count: 799
+npc_view_all: 9
+frame count: 849
+npc_view_all: 11
+frame count: 899
+npc_view_all: 14
+frame count: 949
+npc_view_all: 14
+frame count: 999
+npc_view_all: 12
+frame count: 1049
+npc_view_all: 12
+frame count: 1099
+npc_view_all: 11
+frame count: 1149
+npc_view_all: 13
+frame count: 1199
+npc_view_all: 15
+frame count: 1249
+npc_view_all: 13
+frame count: 1299
+npc_view_all: 13
+frame count: 1349
+npc_view_all: 14
+frame count: 1399
+npc_view_all: 15
+frame count: 1449
+npc_view_all: 15
+frame count: 1499
+npc_view_all: 14
+frame count: 1549
+npc_view_all: 13
+frame count: 1599
+npc_view_all: 14
+frame count: 1649
+npc_view_all: 12
+frame count: 1699
+npc_view_all: 13
+frame count: 1749
+npc_view_all: 13
+frame count: 1799
+npc_view_all: 14
+frame count: 1849
+npc_view_all: 14
+frame count: 1899
+npc_view_all: 14
+frame count: 1949
+npc_view_all: 13
+frame count: 1999
+npc_view_all: 13
+------------------------------------------------------------------------------------------------------
+the current scene count is 106
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   34
+need 61 vehicles and 156 walkers
+spawned 60 vehicles and 122 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 10
+frame count: 99
+npc_view_all: 9
+frame count: 149
+npc_view_all: 9
+frame count: 199
+npc_view_all: 9
+frame count: 249
+npc_view_all: 8
+frame count: 299
+npc_view_all: 7
+frame count: 349
+npc_view_all: 9
+frame count: 399
+npc_view_all: 9
+frame count: 449
+npc_view_all: 10
+frame count: 499
+npc_view_all: 10
+frame count: 549
+npc_view_all: 10
+frame count: 599
+npc_view_all: 11
+frame count: 649
+npc_view_all: 10
+frame count: 699
+npc_view_all: 10
+frame count: 749
+npc_view_all: 10
+frame count: 799
+npc_view_all: 9
+frame count: 849
+npc_view_all: 11
+frame count: 899
+npc_view_all: 11
+frame count: 949
+npc_view_all: 10
+frame count: 999
+npc_view_all: 11
+frame count: 1049
+npc_view_all: 10
+frame count: 1099
+npc_view_all: 10
+frame count: 1149
+npc_view_all: 10
+frame count: 1199
+npc_view_all: 10
+frame count: 1249
+npc_view_all: 9
+frame count: 1299
+npc_view_all: 9
+frame count: 1349
+npc_view_all: 8
+frame count: 1399
+npc_view_all: 9
+frame count: 1449
+npc_view_all: 8
+frame count: 1499
+npc_view_all: 9
+frame count: 1549
+npc_view_all: 9
+frame count: 1599
+npc_view_all: 10
+frame count: 1649
+npc_view_all: 10
+frame count: 1699
+npc_view_all: 9
+frame count: 1749
+npc_view_all: 8
+frame count: 1799
+npc_view_all: 8
+frame count: 1849
+npc_view_all: 7
+frame count: 1899
+npc_view_all: 8
+frame count: 1949
+npc_view_all: 8
+frame count: 1999
+npc_view_all: 8
+------------------------------------------------------------------------------------------------------
+the current scene count is 107
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   31
+need 80 vehicles and 166 walkers
+spawned 79 vehicles and 135 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 13
+frame count: 99
+npc_view_all: 14
+frame count: 149
+npc_view_all: 12
+frame count: 199
+npc_view_all: 13
+frame count: 249
+npc_view_all: 14
+frame count: 299
+npc_view_all: 13
+frame count: 349
+npc_view_all: 14
+frame count: 399
+npc_view_all: 14
+frame count: 449
+npc_view_all: 13
+frame count: 499
+npc_view_all: 12
+frame count: 549
+npc_view_all: 13
+frame count: 599
+npc_view_all: 14
+frame count: 649
+npc_view_all: 14
+frame count: 699
+npc_view_all: 9
+frame count: 749
+npc_view_all: 9
+frame count: 799
+npc_view_all: 10
+frame count: 849
+npc_view_all: 9
+frame count: 899
+npc_view_all: 9
+frame count: 949
+npc_view_all: 10
+frame count: 999
+npc_view_all: 13
+frame count: 1049
+npc_view_all: 15
+frame count: 1099
+npc_view_all: 14
+frame count: 1149
+npc_view_all: 14
+frame count: 1199
+npc_view_all: 12
+frame count: 1249
+npc_view_all: 13
+frame count: 1299
+npc_view_all: 13
+frame count: 1349
+npc_view_all: 13
+frame count: 1399
+npc_view_all: 14
+frame count: 1449
+npc_view_all: 14
+frame count: 1499
+npc_view_all: 15
+frame count: 1549
+npc_view_all: 15
+frame count: 1599
+npc_view_all: 15
+frame count: 1649
+npc_view_all: 14
+frame count: 1699
+npc_view_all: 12
+frame count: 1749
+npc_view_all: 13
+frame count: 1799
+npc_view_all: 13
+frame count: 1849
+npc_view_all: 11
+frame count: 1899
+npc_view_all: 14
+frame count: 1949
+npc_view_all: 13
+frame count: 1999
+npc_view_all: 12
+------------------------------------------------------------------------------------------------------
+the current scene count is 108
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   29
+need 58 vehicles and 159 walkers
+spawned 57 vehicles and 130 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 8
+frame count: 99
+npc_view_all: 9
+frame count: 149
+npc_view_all: 8
+frame count: 199
+npc_view_all: 8
+frame count: 249
+npc_view_all: 7
+frame count: 299
+npc_view_all: 6
+frame count: 349
+npc_view_all: 9
+frame count: 399
+npc_view_all: 10
+frame count: 449
+npc_view_all: 14
+frame count: 499
+npc_view_all: 16
+frame count: 549
+npc_view_all: 15
+frame count: 599
+npc_view_all: 13
+frame count: 649
+npc_view_all: 15
+frame count: 699
+npc_view_all: 15
+frame count: 749
+npc_view_all: 13
+frame count: 799
+npc_view_all: 12
+frame count: 849
+npc_view_all: 9
+frame count: 899
+npc_view_all: 10
+frame count: 949
+npc_view_all: 10
+frame count: 999
+npc_view_all: 9
+frame count: 1049
+npc_view_all: 7
+frame count: 1099
+npc_view_all: 6
+frame count: 1149
+npc_view_all: 5
+frame count: 1199
+npc_view_all: 5
+frame count: 1249
+npc_view_all: 5
+frame count: 1299
+npc_view_all: 5
+frame count: 1349
+npc_view_all: 5
+frame count: 1399
+npc_view_all: 6
+frame count: 1449
+npc_view_all: 6
+frame count: 1499
+npc_view_all: 6
+frame count: 1549
+npc_view_all: 6
+frame count: 1599
+npc_view_all: 6
+frame count: 1649
+npc_view_all: 6
+frame count: 1699
+npc_view_all: 6
+frame count: 1749
+npc_view_all: 6
+frame count: 1799
+npc_view_all: 6
+frame count: 1849
+npc_view_all: 5
+frame count: 1899
+npc_view_all: 4
+frame count: 1949
+npc_view_all: 4
+frame count: 1999
+npc_view_all: 4
+------------------------------------------------------------------------------------------------------
+the current scene count is 109
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   34
+need 59 vehicles and 191 walkers
+spawned 58 vehicles and 157 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 9
+frame count: 99
+npc_view_all: 10
+frame count: 149
+npc_view_all: 11
+frame count: 199
+npc_view_all: 11
+frame count: 249
+npc_view_all: 10
+frame count: 299
+npc_view_all: 11
+frame count: 349
+npc_view_all: 11
+frame count: 399
+npc_view_all: 7
+frame count: 449
+npc_view_all: 12
+frame count: 499
+npc_view_all: 12
+frame count: 549
+npc_view_all: 11
+frame count: 599
+npc_view_all: 9
+frame count: 649
+npc_view_all: 10
+frame count: 699
+npc_view_all: 11
+frame count: 749
+npc_view_all: 12
+frame count: 799
+npc_view_all: 9
+frame count: 849
+npc_view_all: 7
+frame count: 899
+npc_view_all: 7
+frame count: 949
+npc_view_all: 7
+frame count: 999
+npc_view_all: 7
+frame count: 1049
+npc_view_all: 7
+frame count: 1099
+npc_view_all: 7
+frame count: 1149
+npc_view_all: 8
+frame count: 1199
+npc_view_all: 9
+frame count: 1249
+npc_view_all: 8
+frame count: 1299
+npc_view_all: 7
+frame count: 1349
+npc_view_all: 7
+frame count: 1399
+npc_view_all: 8
+frame count: 1449
+npc_view_all: 9
+frame count: 1499
+npc_view_all: 10
+frame count: 1549
+npc_view_all: 9
+frame count: 1599
+npc_view_all: 8
+frame count: 1649
+npc_view_all: 6
+frame count: 1699
+npc_view_all: 5
+frame count: 1749
+npc_view_all: 5
+frame count: 1799
+npc_view_all: 7
+frame count: 1849
+npc_view_all: 7
+frame count: 1899
+npc_view_all: 6
+frame count: 1949
+npc_view_all: 5
+frame count: 1999
+npc_view_all: 5
+------------------------------------------------------------------------------------------------------
+the current scene count is 110
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   31
+need 56 vehicles and 182 walkers
+spawned 55 vehicles and 151 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 9
+frame count: 99
+npc_view_all: 9
+frame count: 149
+npc_view_all: 7
+frame count: 199
+npc_view_all: 8
+frame count: 249
+npc_view_all: 7
+frame count: 299
+npc_view_all: 8
+frame count: 349
+npc_view_all: 8
+frame count: 399
+npc_view_all: 8
+frame count: 449
+npc_view_all: 8
+frame count: 499
+npc_view_all: 7
+frame count: 549
+npc_view_all: 8
+frame count: 599
+npc_view_all: 8
+frame count: 649
+npc_view_all: 8
+frame count: 699
+npc_view_all: 8
+frame count: 749
+npc_view_all: 9
+frame count: 799
+npc_view_all: 9
+frame count: 849
+npc_view_all: 9
+frame count: 899
+npc_view_all: 8
+frame count: 949
+npc_view_all: 9
+frame count: 999
+npc_view_all: 7
+frame count: 1049
+npc_view_all: 8
+frame count: 1099
+npc_view_all: 10
+frame count: 1149
+npc_view_all: 15
+frame count: 1199
+npc_view_all: 17
+frame count: 1249
+npc_view_all: 16
+frame count: 1299
+npc_view_all: 17
+frame count: 1349
+npc_view_all: 18
+frame count: 1399
+npc_view_all: 17
+frame count: 1449
+npc_view_all: 14
+frame count: 1499
+npc_view_all: 16
+frame count: 1549
+npc_view_all: 13
+frame count: 1599
+npc_view_all: 13
+frame count: 1649
+npc_view_all: 13
+frame count: 1699
+npc_view_all: 12
+frame count: 1749
+npc_view_all: 13
+frame count: 1799
+npc_view_all: 13
+frame count: 1849
+npc_view_all: 13
+frame count: 1899
+npc_view_all: 12
+frame count: 1949
+npc_view_all: 12
+frame count: 1999
+npc_view_all: 11
+------------------------------------------------------------------------------------------------------
+the current scene count is 111
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   28
+need 79 vehicles and 154 walkers
+spawned 78 vehicles and 126 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 10
+frame count: 99
+npc_view_all: 10
+frame count: 149
+npc_view_all: 9
+frame count: 199
+npc_view_all: 10
+frame count: 249
+npc_view_all: 10
+frame count: 299
+npc_view_all: 10
+frame count: 349
+npc_view_all: 11
+frame count: 399
+npc_view_all: 11
+frame count: 449
+npc_view_all: 12
+frame count: 499
+npc_view_all: 8
+frame count: 549
+npc_view_all: 8
+frame count: 599
+npc_view_all: 7
+frame count: 649
+npc_view_all: 5
+frame count: 699
+npc_view_all: 5
+frame count: 749
+npc_view_all: 3
+frame count: 799
+npc_view_all: 4
+frame count: 849
+npc_view_all: 4
+frame count: 899
+npc_view_all: 4
+frame count: 949
+npc_view_all: 5
+frame count: 999
+npc_view_all: 5
+frame count: 1049
+npc_view_all: 5
+frame count: 1099
+npc_view_all: 4
+frame count: 1149
+npc_view_all: 4
+frame count: 1199
+npc_view_all: 4
+frame count: 1249
+npc_view_all: 4
+frame count: 1299
+npc_view_all: 4
+frame count: 1349
+npc_view_all: 3
+frame count: 1399
+npc_view_all: 3
+frame count: 1449
+npc_view_all: 4
+frame count: 1499
+npc_view_all: 4
+frame count: 1549
+npc_view_all: 4
+frame count: 1599
+npc_view_all: 4
+frame count: 1649
+npc_view_all: 4
+frame count: 1699
+npc_view_all: 4
+frame count: 1749
+npc_view_all: 3
+frame count: 1799
+npc_view_all: 3
+frame count: 1849
+npc_view_all: 5
+frame count: 1899
+npc_view_all: 5
+frame count: 1949
+npc_view_all: 5
+frame count: 1999
+npc_view_all: 4
+------------------------------------------------------------------------------------------------------
+the current scene count is 112
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   28
+need 70 vehicles and 198 walkers
+spawned 69 vehicles and 170 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 5
+frame count: 99
+npc_view_all: 4
+frame count: 149
+npc_view_all: 6
+frame count: 199
+npc_view_all: 5
+frame count: 249
+npc_view_all: 6
+frame count: 299
+npc_view_all: 6
+frame count: 349
+npc_view_all: 8
+frame count: 399
+npc_view_all: 8
+frame count: 449
+npc_view_all: 14
+frame count: 499
+npc_view_all: 21
+frame count: 549
+npc_view_all: 17
+frame count: 599
+npc_view_all: 16
+frame count: 649
+npc_view_all: 14
+frame count: 699
+npc_view_all: 9
+frame count: 749
+npc_view_all: 8
+frame count: 799
+npc_view_all: 7
+frame count: 849
+npc_view_all: 7
+frame count: 899
+npc_view_all: 7
+frame count: 949
+npc_view_all: 8
+frame count: 999
+npc_view_all: 8
+frame count: 1049
+npc_view_all: 8
+frame count: 1099
+npc_view_all: 9
+frame count: 1149
+npc_view_all: 9
+frame count: 1199
+npc_view_all: 9
+frame count: 1249
+npc_view_all: 9
+frame count: 1299
+npc_view_all: 9
+frame count: 1349
+npc_view_all: 9
+frame count: 1399
+npc_view_all: 9
+frame count: 1449
+npc_view_all: 10
+frame count: 1499
+npc_view_all: 10
+frame count: 1549
+npc_view_all: 10
+frame count: 1599
+npc_view_all: 10
+frame count: 1649
+npc_view_all: 10
+frame count: 1699
+npc_view_all: 11
+frame count: 1749
+npc_view_all: 9
+frame count: 1799
+npc_view_all: 8
+frame count: 1849
+npc_view_all: 7
+frame count: 1899
+npc_view_all: 7
+frame count: 1949
+npc_view_all: 8
+frame count: 1999
+npc_view_all: 8
+------------------------------------------------------------------------------------------------------
+the current scene count is 113
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   25
+need 81 vehicles and 104 walkers
+spawned 80 vehicles and 79 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 7
+frame count: 99
+npc_view_all: 6
+frame count: 149
+npc_view_all: 6
+frame count: 199
+npc_view_all: 5
+frame count: 249
+npc_view_all: 3
+frame count: 299
+npc_view_all: 4
+frame count: 349
+npc_view_all: 6
+frame count: 399
+npc_view_all: 7
+frame count: 449
+npc_view_all: 7
+frame count: 499
+npc_view_all: 5
+frame count: 549
+npc_view_all: 6
+frame count: 599
+npc_view_all: 5
+frame count: 649
+npc_view_all: 3
+frame count: 699
+npc_view_all: 3
+frame count: 749
+npc_view_all: 4
+frame count: 799
+npc_view_all: 8
+frame count: 849
+npc_view_all: 8
+frame count: 899
+npc_view_all: 8
+frame count: 949
+npc_view_all: 8
+frame count: 999
+npc_view_all: 7
+frame count: 1049
+npc_view_all: 7
+frame count: 1099
+npc_view_all: 7
+frame count: 1149
+npc_view_all: 7
+frame count: 1199
+npc_view_all: 7
+frame count: 1249
+npc_view_all: 7
+frame count: 1299
+npc_view_all: 6
+frame count: 1349
+npc_view_all: 5
+frame count: 1399
+npc_view_all: 6
+frame count: 1449
+npc_view_all: 6
+frame count: 1499
+npc_view_all: 6
+frame count: 1549
+npc_view_all: 5
+frame count: 1599
+npc_view_all: 6
+frame count: 1649
+npc_view_all: 6
+frame count: 1699
+npc_view_all: 5
+frame count: 1749
+npc_view_all: 8
+frame count: 1799
+npc_view_all: 8
+frame count: 1849
+npc_view_all: 9
+frame count: 1899
+npc_view_all: 9
+frame count: 1949
+npc_view_all: 9
+frame count: 1999
+npc_view_all: 7
+------------------------------------------------------------------------------------------------------
+the current scene count is 114
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   20
+need 53 vehicles and 119 walkers
+spawned 52 vehicles and 99 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 1
+frame count: 99
+npc_view_all: 1
+frame count: 149
+npc_view_all: 1
+frame count: 199
+npc_view_all: 1
+frame count: 249
+npc_view_all: 3
+frame count: 299
+npc_view_all: 3
+frame count: 349
+npc_view_all: 3
+frame count: 399
+npc_view_all: 3
+frame count: 449
+npc_view_all: 3
+frame count: 499
+npc_view_all: 3
+frame count: 549
+npc_view_all: 5
+frame count: 599
+npc_view_all: 5
+frame count: 649
+npc_view_all: 5
+frame count: 699
+npc_view_all: 6
+frame count: 749
+npc_view_all: 5
+frame count: 799
+npc_view_all: 5
+frame count: 849
+npc_view_all: 4
+frame count: 899
+npc_view_all: 4
+frame count: 949
+npc_view_all: 4
+frame count: 999
+npc_view_all: 4
+frame count: 1049
+npc_view_all: 4
+frame count: 1099
+npc_view_all: 4
+frame count: 1149
+npc_view_all: 4
+frame count: 1199
+npc_view_all: 4
+frame count: 1249
+npc_view_all: 4
+frame count: 1299
+npc_view_all: 4
+frame count: 1349
+npc_view_all: 4
+frame count: 1399
+npc_view_all: 4
+frame count: 1449
+npc_view_all: 5
+frame count: 1499
+npc_view_all: 5
+frame count: 1549
+npc_view_all: 5
+frame count: 1599
+npc_view_all: 6
+frame count: 1649
+npc_view_all: 6
+frame count: 1699
+npc_view_all: 7
+frame count: 1749
+npc_view_all: 5
+frame count: 1799
+npc_view_all: 5
+frame count: 1849
+npc_view_all: 5
+frame count: 1899
+npc_view_all: 5
+frame count: 1949
+npc_view_all: 5
+frame count: 1999
+npc_view_all: 5
+------------------------------------------------------------------------------------------------------
+the current scene count is 115
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   23
+need 78 vehicles and 185 walkers
+spawned 77 vehicles and 162 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 10
+frame count: 99
+npc_view_all: 13
+frame count: 149
+npc_view_all: 12
+frame count: 199
+npc_view_all: 10
+frame count: 249
+npc_view_all: 10
+frame count: 299
+npc_view_all: 11
+frame count: 349
+npc_view_all: 9
+frame count: 399
+npc_view_all: 8
+frame count: 449
+npc_view_all: 9
+frame count: 499
+npc_view_all: 10
+frame count: 549
+npc_view_all: 13
+frame count: 599
+npc_view_all: 17
+frame count: 649
+npc_view_all: 20
+frame count: 699
+npc_view_all: 18
+frame count: 749
+npc_view_all: 17
+frame count: 799
+npc_view_all: 16
+frame count: 849
+npc_view_all: 17
+frame count: 899
+npc_view_all: 18
+frame count: 949
+npc_view_all: 16
+frame count: 999
+npc_view_all: 10
+frame count: 1049
+npc_view_all: 9
+frame count: 1099
+npc_view_all: 10
+frame count: 1149
+npc_view_all: 10
+frame count: 1199
+npc_view_all: 10
+frame count: 1249
+npc_view_all: 9
+frame count: 1299
+npc_view_all: 9
+frame count: 1349
+npc_view_all: 9
+frame count: 1399
+npc_view_all: 9
+frame count: 1449
+npc_view_all: 9
+frame count: 1499
+npc_view_all: 8
+frame count: 1549
+npc_view_all: 9
+frame count: 1599
+npc_view_all: 10
+frame count: 1649
+npc_view_all: 10
+frame count: 1699
+npc_view_all: 8
+frame count: 1749
+npc_view_all: 8
+frame count: 1799
+npc_view_all: 6
+frame count: 1849
+npc_view_all: 7
+frame count: 1899
+npc_view_all: 10
+frame count: 1949
+npc_view_all: 12
+frame count: 1999
+npc_view_all: 20
+------------------------------------------------------------------------------------------------------
+the current scene count is 116
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   16
+need 74 vehicles and 100 walkers
+spawned 73 vehicles and 84 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 9
+frame count: 99
+npc_view_all: 8
+frame count: 149
+npc_view_all: 8
+frame count: 199
+npc_view_all: 8
+frame count: 249
+npc_view_all: 5
+frame count: 299
+npc_view_all: 8
+frame count: 349
+npc_view_all: 5
+frame count: 399
+npc_view_all: 7
+frame count: 449
+npc_view_all: 8
+frame count: 499
+npc_view_all: 7
+frame count: 549
+npc_view_all: 8
+frame count: 599
+npc_view_all: 6
+frame count: 649
+npc_view_all: 6
+frame count: 699
+npc_view_all: 5
+frame count: 749
+npc_view_all: 7
+frame count: 799
+npc_view_all: 8
+frame count: 849
+npc_view_all: 6
+frame count: 899
+npc_view_all: 7
+frame count: 949
+npc_view_all: 7
+frame count: 999
+npc_view_all: 6
+frame count: 1049
+npc_view_all: 6
+frame count: 1099
+npc_view_all: 6
+frame count: 1149
+npc_view_all: 6
+frame count: 1199
+npc_view_all: 6
+frame count: 1249
+npc_view_all: 6
+frame count: 1299
+npc_view_all: 6
+frame count: 1349
+npc_view_all: 7
+frame count: 1399
+npc_view_all: 7
+frame count: 1449
+npc_view_all: 7
+frame count: 1499
+npc_view_all: 7
+frame count: 1549
+npc_view_all: 7
+frame count: 1599
+npc_view_all: 8
+frame count: 1649
+npc_view_all: 8
+frame count: 1699
+npc_view_all: 6
+frame count: 1749
+npc_view_all: 6
+frame count: 1799
+npc_view_all: 6
+frame count: 1849
+npc_view_all: 5
+frame count: 1899
+npc_view_all: 6
+frame count: 1949
+npc_view_all: 8
+frame count: 1999
+npc_view_all: 7
+------------------------------------------------------------------------------------------------------
+the current scene count is 117
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   49
+need 79 vehicles and 195 walkers
+spawned 78 vehicles and 146 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 10
+frame count: 99
+npc_view_all: 10
+frame count: 149
+npc_view_all: 10
+frame count: 199
+npc_view_all: 10
+frame count: 249
+npc_view_all: 9
+frame count: 299
+npc_view_all: 9
+frame count: 349
+npc_view_all: 11
+frame count: 399
+npc_view_all: 13
+frame count: 449
+npc_view_all: 12
+frame count: 499
+npc_view_all: 16
+frame count: 549
+npc_view_all: 13
+frame count: 599
+npc_view_all: 14
+frame count: 649
+npc_view_all: 13
+frame count: 699
+npc_view_all: 14
+frame count: 749
+npc_view_all: 13
+frame count: 799
+npc_view_all: 8
+frame count: 849
+npc_view_all: 9
+frame count: 899
+npc_view_all: 10
+frame count: 949
+npc_view_all: 10
+frame count: 999
+npc_view_all: 11
+frame count: 1049
+npc_view_all: 11
+frame count: 1099
+npc_view_all: 10
+frame count: 1149
+npc_view_all: 12
+frame count: 1199
+npc_view_all: 11
+frame count: 1249
+npc_view_all: 13
+frame count: 1299
+npc_view_all: 14
+frame count: 1349
+npc_view_all: 15
+frame count: 1399
+npc_view_all: 14
+frame count: 1449
+npc_view_all: 16
+frame count: 1499
+npc_view_all: 14
+frame count: 1549
+npc_view_all: 17
+frame count: 1599
+npc_view_all: 15
+frame count: 1649
+npc_view_all: 16
+frame count: 1699
+npc_view_all: 14
+frame count: 1749
+npc_view_all: 15
+frame count: 1799
+npc_view_all: 15
+frame count: 1849
+npc_view_all: 15
+frame count: 1899
+npc_view_all: 14
+frame count: 1949
+npc_view_all: 15
+frame count: 1999
+npc_view_all: 15
+------------------------------------------------------------------------------------------------------
+the current scene count is 118
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   29
+need 68 vehicles and 166 walkers
+spawned 67 vehicles and 137 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 10
+frame count: 99
+npc_view_all: 10
+frame count: 149
+npc_view_all: 10
+frame count: 199
+npc_view_all: 8
+frame count: 249
+npc_view_all: 9
+frame count: 299
+npc_view_all: 9
+frame count: 349
+npc_view_all: 9
+frame count: 399
+npc_view_all: 7
+frame count: 449
+npc_view_all: 8
+frame count: 499
+npc_view_all: 9
+frame count: 549
+npc_view_all: 8
+frame count: 599
+npc_view_all: 9
+frame count: 649
+npc_view_all: 9
+frame count: 699
+npc_view_all: 10
+frame count: 749
+npc_view_all: 10
+frame count: 799
+npc_view_all: 10
+frame count: 849
+npc_view_all: 9
+frame count: 899
+npc_view_all: 10
+frame count: 949
+npc_view_all: 10
+frame count: 999
+npc_view_all: 11
+frame count: 1049
+npc_view_all: 11
+frame count: 1099
+npc_view_all: 12
+frame count: 1149
+npc_view_all: 14
+frame count: 1199
+npc_view_all: 15
+frame count: 1249
+npc_view_all: 12
+frame count: 1299
+npc_view_all: 7
+frame count: 1349
+npc_view_all: 8
+frame count: 1399
+npc_view_all: 6
+frame count: 1449
+npc_view_all: 9
+frame count: 1499
+npc_view_all: 9
+frame count: 1549
+npc_view_all: 9
+frame count: 1599
+npc_view_all: 9
+frame count: 1649
+npc_view_all: 9
+frame count: 1699
+npc_view_all: 10
+frame count: 1749
+npc_view_all: 10
+frame count: 1799
+npc_view_all: 10
+frame count: 1849
+npc_view_all: 10
+frame count: 1899
+npc_view_all: 10
+frame count: 1949
+npc_view_all: 10
+frame count: 1999
+npc_view_all: 10
+------------------------------------------------------------------------------------------------------
+the current scene count is 119
+---------------------------------------------------
+generate scene start!
+generate setting scene start!
+Failed to spawn vehicle: Spawn failed because of collision at spawn position   1
+Failed to spawn walker: Spawn failed because of collision at spawn position   19
+need 53 vehicles and 153 walkers
+spawned 52 vehicles and 134 walkers, press Ctrl+C to exit.
+generate random scene success!
+generate scene success!
+frame count: 49
+npc_view_all: 9
+frame count: 99
+npc_view_all: 9
+frame count: 149
+npc_view_all: 8
+frame count: 199
+npc_view_all: 7
+frame count: 249
+npc_view_all: 5
+frame count: 299
+npc_view_all: 8
+frame count: 349
+npc_view_all: 7
+frame count: 399
+npc_view_all: 3
+frame count: 449
+npc_view_all: 2
+frame count: 499
+npc_view_all: 4
+frame count: 549
+npc_view_all: 4
+frame count: 599
+npc_view_all: 4
+frame count: 649
+npc_view_all: 5
+frame count: 699
+npc_view_all: 3
+frame count: 749
+npc_view_all: 4
+frame count: 799
+npc_view_all: 4
+frame count: 849
+npc_view_all: 4
+frame count: 899
+npc_view_all: 6
+frame count: 949
+npc_view_all: 6
+frame count: 999
+npc_view_all: 6
+frame count: 1049
+npc_view_all: 7
+frame count: 1099
+npc_view_all: 7
+frame count: 1149
+npc_view_all: 7
+frame count: 1199
+npc_view_all: 7
+frame count: 1249
+npc_view_all: 7
+frame count: 1299
+npc_view_all: 7
+frame count: 1349
+npc_view_all: 7
+frame count: 1399
+npc_view_all: 7
+frame count: 1449
+npc_view_all: 8
+frame count: 1499
+npc_view_all: 6
+frame count: 1549
+npc_view_all: 6
+frame count: 1599
+npc_view_all: 7
+frame count: 1649
+npc_view_all: 6
+frame count: 1699
+npc_view_all: 5
+frame count: 1749
+npc_view_all: 4
+frame count: 1799
+npc_view_all: 4
+frame count: 1849
+npc_view_all: 4
+frame count: 1899
+npc_view_all: 5
+frame count: 1949
+npc_view_all: 5
+frame count: 1999
+npc_view_all: 3
+------------------------------------------------------------------------------------------------------

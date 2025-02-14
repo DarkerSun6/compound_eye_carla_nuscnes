@@ -1,0 +1,353 @@
+dataset:
+  root: "/data/sunbs/data_carla/carla_bev_world3_count20_time20"
+  version: "v1.14_2"
+
+client: 
+  host: 127.0.0.1
+  port: 2000
+  time_out: 20.0
+
+sensors:
+  !include configs/sensors.yaml
+
+categories:
+  !include configs/categories.yaml
+
+attributes:
+  !include configs/attributes.yaml
+
+visibility:
+  !include configs/visibility.yaml 
+
+worlds:  #map
+  - 
+    map_name: "Town01_Opt"
+    map_category: "semantic_prior"
+    settings:
+      fixed_delta_seconds: 0.01 #采集时间间隔0.01秒,模拟的时间步长
+    captures: #log
+      - 
+        date: "2024-10-14"
+        time: "21-10-20"
+        timezone: "+0800"
+        capture_vehicle: "c1001"
+        location: "Town01_Opt"
+        scenes: #前两个是测试采集，采集时间均为1s。samples中两张，sweeps中10张。
+          - 
+            count: 30 #采集场景次数
+            custom: False # 为真时指定场景参数
+            collect_time: 20 #总的采集时间
+            keyframe_time: 0.5 #关键帧samples中0.5s储存一次
+            ego_bp_name: "vehicle.tesla.model3"
+            weather_mode: "custom" # 指定场景天气情况
+            weather:
+              cloudiness: 30 # 值范围为0到100，0表示晴朗的天空，100表示完全被云层覆盖
+              precipitation: 0 # 雨强值在0到100之间，0表示完全没有，100表示大雨
+              precipitation_deposits: 0 # 积水量，范围0-100，决定了道路上积水水洼的产生，值为0时完全没有积水，为100时道路完全被水覆盖，注意水洼会在固定的地点生成，没有随机性
+
+              wind_intensity: 0 # 风强，范围0-100，控制风的强度，从0-100为无风到强风，风会影响雨和树叶的效果。
+
+              sun_azimuth_angle: 180 # 太阳方位角，范围0-360，单位为角度，值为0时为UE引擎定义的天空球原点
+              sun_altitude_angle: 80 # 太阳高度角，范围-90-+90，单位为角度，-90时代表午夜，+90时代表正午
+
+              fog_density: 0 # 雾浓度或厚度。它只影响RGB相机传感器。值的范围为0到100
+              fog_distance: 0 #雾开始距离。值的范围从0到无穷大，雾气到摄像机的距离
+              fog_falloff: 0 # 从0到无穷大的雾密度（如特定质量）。值越大，雾越浓越重，雾的高度也越小。
+
+              wetness: 0 # 湿度，范围0-100，可能会引起镜头水雾等，注意此属性只影响RGB相机的输出
+
+              scattering_intensity: 0 # 散射强度，控制被散射而在雾中形成光柱的光的比例，值为0时完全不散射
+              mie_scattering_scale: 0 # 米氏散射强度，控制米氏散射的强度（出现圆环型光晕的概率），值为0时完全不散射
+              rayleigh_scattering_scale: 0.0331 #  瑞利散射强度，控制瑞利散射强度，影响傍晚天空红色等。控制光与空气分子等小粒子的相互作用。取决于光的波长，导致白天的天空是蓝色的，晚上的天空是红色的。
+              
+              dust_storm: 0 # 决定沙尘暴天气的强度。值的范围为0到100。
+
+            calibrated_sensors:
+              !include configs/calibrated_sensors.yaml
+            description:
+              "Town01_Opt, A basic town layout consisting of T junctions, Ideal weather conditions with clear skies, partially cloudy, no precipitation, no wind, no fog, and other special weather phenomena."
+
+  - 
+    map_name: "Town02_Opt"
+    map_category: "semantic_prior"
+    settings:
+      fixed_delta_seconds: 0.01 #采集时间间隔0.01秒,模拟的时间步长
+    captures: #log
+      - 
+        date: "2024-10-14"
+        time: "21-10-20"
+        timezone: "+0800"
+        capture_vehicle: "c2001"
+        location: "Town02_Opt"
+        scenes: #前两个是测试采集，采集时间均为1s。samples中两张，sweeps中10张。
+          - 
+            count: 20 #采集场景次数
+            custom: False # 为真时指定场景参数
+            collect_time: 20 #总的采集时间
+            keyframe_time: 0.5 #关键帧samples中0.5s储存一次
+            ego_bp_name: "vehicle.tesla.model3"
+            weather_mode: "custom" # 指定场景天气情况
+            weather:
+              cloudiness: 30 # 值范围为0到100，0表示晴朗的天空，100表示完全被云层覆盖
+              precipitation: 0 # 雨强值在0到100之间，0表示完全没有，100表示大雨
+              precipitation_deposits: 0 # 积水量，范围0-100，决定了道路上积水水洼的产生，值为0时完全没有积水，为100时道路完全被水覆盖，注意水洼会在固定的地点生成，没有随机性
+
+              wind_intensity: 0 # 风强，范围0-100，控制风的强度，从0-100为无风到强风，风会影响雨和树叶的效果。
+
+              sun_azimuth_angle: 180 # 太阳方位角，范围0-360，单位为角度，值为0时为UE引擎定义的天空球原点
+              sun_altitude_angle: 80 # 太阳高度角，范围-90-+90，单位为角度，-90时代表午夜，+90时代表正午
+
+              fog_density: 0 # 雾浓度或厚度。它只影响RGB相机传感器。值的范围为0到100
+              fog_distance: 0 #雾开始距离。值的范围从0到无穷大，雾气到摄像机的距离
+              fog_falloff: 0 # 从0到无穷大的雾密度（如特定质量）。值越大，雾越浓越重，雾的高度也越小。
+
+              wetness: 0 # 湿度，范围0-100，可能会引起镜头水雾等，注意此属性只影响RGB相机的输出
+
+              scattering_intensity: 0 # 散射强度，控制被散射而在雾中形成光柱的光的比例，值为0时完全不散射
+              mie_scattering_scale: 0 # 米氏散射强度，控制米氏散射的强度（出现圆环型光晕的概率），值为0时完全不散射
+              rayleigh_scattering_scale: 0.0331 #  瑞利散射强度，控制瑞利散射强度，影响傍晚天空红色等。控制光与空气分子等小粒子的相互作用。取决于光的波长，导致白天的天空是蓝色的，晚上的天空是红色的。
+              
+              dust_storm: 0 # 决定沙尘暴天气的强度。值的范围为0到100。
+
+            calibrated_sensors:
+              !include configs/calibrated_sensors.yaml
+            description:
+              "Town02_Opt  Similar to Town01, but smaller. Ideal weather conditions with clear skies, partially cloudy, no precipitation, no wind, no fog, and other special weather phenomena."
+
+  - 
+    map_name: "Town03_Opt"
+    map_category: "semantic_prior"
+    settings:
+      fixed_delta_seconds: 0.01 #采集时间间隔0.01秒,模拟的时间步长
+    captures: #log
+      - 
+        date: "2024-10-14"
+        time: "21-10-20"
+        timezone: "+0800"
+        capture_vehicle: "c3001"
+        location: "Town03_Opt"
+        scenes: #前两个是测试采集，采集时间均为1s。samples中两张，sweeps中10张。
+          - 
+            count: 40 #采集场景次数
+            custom: False # 为真时指定场景参数
+            collect_time: 20 #总的采集时间
+            keyframe_time: 0.5 #关键帧samples中0.5s储存一次
+            ego_bp_name: "vehicle.tesla.model3"
+            weather_mode: "custom" # 指定场景天气情况
+            weather:
+              cloudiness: 30 # 值范围为0到100，0表示晴朗的天空，100表示完全被云层覆盖
+              precipitation: 0 # 雨强值在0到100之间，0表示完全没有，100表示大雨
+              precipitation_deposits: 0 # 积水量，范围0-100，决定了道路上积水水洼的产生，值为0时完全没有积水，为100时道路完全被水覆盖，注意水洼会在固定的地点生成，没有随机性
+
+              wind_intensity: 0 # 风强，范围0-100，控制风的强度，从0-100为无风到强风，风会影响雨和树叶的效果。
+
+              sun_azimuth_angle: 180 # 太阳方位角，范围0-360，单位为角度，值为0时为UE引擎定义的天空球原点
+              sun_altitude_angle: 80 # 太阳高度角，范围-90-+90，单位为角度，-90时代表午夜，+90时代表正午
+
+              fog_density: 0 # 雾浓度或厚度。它只影响RGB相机传感器。值的范围为0到100
+              fog_distance: 0 #雾开始距离。值的范围从0到无穷大，雾气到摄像机的距离
+              fog_falloff: 0 # 从0到无穷大的雾密度（如特定质量）。值越大，雾越浓越重，雾的高度也越小。
+
+              wetness: 0 # 湿度，范围0-100，可能会引起镜头水雾等，注意此属性只影响RGB相机的输出
+
+              scattering_intensity: 0 # 散射强度，控制被散射而在雾中形成光柱的光的比例，值为0时完全不散射
+              mie_scattering_scale: 0 # 米氏散射强度，控制米氏散射的强度（出现圆环型光晕的概率），值为0时完全不散射
+              rayleigh_scattering_scale: 0.0331 #  瑞利散射强度，控制瑞利散射强度，影响傍晚天空红色等。控制光与空气分子等小粒子的相互作用。取决于光的波长，导致白天的天空是蓝色的，晚上的天空是红色的。
+              
+              dust_storm: 0 # 决定沙尘暴天气的强度。值的范围为0到100。
+
+            calibrated_sensors:
+              !include configs/calibrated_sensors.yaml
+            description:
+              "Town03_Opt The most complex town, with a 5-lane junction, a roundabout, unevenness, a tunnel, and more. Ideal weather conditions with clear skies, partially cloudy, no precipitation, no wind, no fog, and other special weather phenomena."
+
+  # - 
+  #   map_name: "Town04_Opt"
+  #   map_category: "semantic_prior"
+  #   settings:
+  #     fixed_delta_seconds: 0.01 #采集时间间隔0.01秒,模拟的时间步长
+  #   captures: #log
+  #     - 
+  #       date: "2024-10-14"
+  #       time: "21-10-20"
+  #       timezone: "+0800"
+  #       capture_vehicle: "c4001"
+  #       location: "Town04_Opt"
+  #       scenes: #前两个是测试采集，采集时间均为1s。samples中两张，sweeps中10张。
+  #         - 
+  #           count: 15 #采集场景次数
+  #           custom: False # 为真时指定场景参数
+  #           collect_time: 20 #总的采集时间
+  #           keyframe_time: 0.5 #关键帧samples中0.5s储存一次
+  #           ego_bp_name: "vehicle.tesla.model3"
+  #           weather_mode: "custom" # 指定场景天气情况
+  #           weather:
+  #             cloudiness: 30 # 值范围为0到100，0表示晴朗的天空，100表示完全被云层覆盖
+  #             precipitation: 0 # 雨强值在0到100之间，0表示完全没有，100表示大雨
+  #             precipitation_deposits: 0 # 积水量，范围0-100，决定了道路上积水水洼的产生，值为0时完全没有积水，为100时道路完全被水覆盖，注意水洼会在固定的地点生成，没有随机性
+
+  #             wind_intensity: 0 # 风强，范围0-100，控制风的强度，从0-100为无风到强风，风会影响雨和树叶的效果。
+
+  #             sun_azimuth_angle: 180 # 太阳方位角，范围0-360，单位为角度，值为0时为UE引擎定义的天空球原点
+  #             sun_altitude_angle: 80 # 太阳高度角，范围-90-+90，单位为角度，-90时代表午夜，+90时代表正午
+
+  #             fog_density: 0 # 雾浓度或厚度。它只影响RGB相机传感器。值的范围为0到100
+  #             fog_distance: 0 #雾开始距离。值的范围从0到无穷大，雾气到摄像机的距离
+  #             fog_falloff: 0 # 从0到无穷大的雾密度（如特定质量）。值越大，雾越浓越重，雾的高度也越小。
+
+  #             wetness: 0 # 湿度，范围0-100，可能会引起镜头水雾等，注意此属性只影响RGB相机的输出
+
+  #             scattering_intensity: 0 # 散射强度，控制被散射而在雾中形成光柱的光的比例，值为0时完全不散射
+  #             mie_scattering_scale: 0 # 米氏散射强度，控制米氏散射的强度（出现圆环型光晕的概率），值为0时完全不散射
+  #             rayleigh_scattering_scale: 0.0331 #  瑞利散射强度，控制瑞利散射强度，影响傍晚天空红色等。控制光与空气分子等小粒子的相互作用。取决于光的波长，导致白天的天空是蓝色的，晚上的天空是红色的。
+              
+  #             dust_storm: 0 # 决定沙尘暴天气的强度。值的范围为0到100。
+
+  #           calibrated_sensors:
+  #             !include configs/calibrated_sensors.yaml
+  #           description:
+  #             "Town04_Opt  An infinite loop with a highway and a small town. Ideal weather conditions with clear skies, partially cloudy, no precipitation, no wind, no fog, and other special weather phenomena."
+
+  # - 
+  #   map_name: "Town05_Opt"
+  #   map_category: "semantic_prior"
+  #   settings:
+  #     fixed_delta_seconds: 0.01 #采集时间间隔0.01秒,模拟的时间步长
+  #   captures: #log
+  #     - 
+  #       date: "2024-10-14"
+  #       time: "21-10-20"
+  #       timezone: "+0800"
+  #       capture_vehicle: "c5001"
+  #       location: "Town05_Opt"
+  #       scenes: #前两个是测试采集，采集时间均为1s。samples中两张，sweeps中10张。
+  #         - 
+  #           count: 20 #采集场景次数
+  #           custom: False # 为真时指定场景参数
+  #           collect_time: 20 #总的采集时间
+  #           keyframe_time: 0.5 #关键帧samples中0.5s储存一次
+  #           ego_bp_name: "vehicle.tesla.model3"
+  #           weather_mode: "custom" # 指定场景天气情况
+  #           weather:
+  #             cloudiness: 30 # 值范围为0到100，0表示晴朗的天空，100表示完全被云层覆盖
+  #             precipitation: 0 # 雨强值在0到100之间，0表示完全没有，100表示大雨
+  #             precipitation_deposits: 0 # 积水量，范围0-100，决定了道路上积水水洼的产生，值为0时完全没有积水，为100时道路完全被水覆盖，注意水洼会在固定的地点生成，没有随机性
+
+  #             wind_intensity: 0 # 风强，范围0-100，控制风的强度，从0-100为无风到强风，风会影响雨和树叶的效果。
+
+  #             sun_azimuth_angle: 180 # 太阳方位角，范围0-360，单位为角度，值为0时为UE引擎定义的天空球原点
+  #             sun_altitude_angle: 80 # 太阳高度角，范围-90-+90，单位为角度，-90时代表午夜，+90时代表正午
+
+  #             fog_density: 0 # 雾浓度或厚度。它只影响RGB相机传感器。值的范围为0到100
+  #             fog_distance: 0 #雾开始距离。值的范围从0到无穷大，雾气到摄像机的距离
+  #             fog_falloff: 0 # 从0到无穷大的雾密度（如特定质量）。值越大，雾越浓越重，雾的高度也越小。
+
+  #             wetness: 0 # 湿度，范围0-100，可能会引起镜头水雾等，注意此属性只影响RGB相机的输出
+
+  #             scattering_intensity: 0 # 散射强度，控制被散射而在雾中形成光柱的光的比例，值为0时完全不散射
+  #             mie_scattering_scale: 0 # 米氏散射强度，控制米氏散射的强度（出现圆环型光晕的概率），值为0时完全不散射
+  #             rayleigh_scattering_scale: 0.0331 #  瑞利散射强度，控制瑞利散射强度，影响傍晚天空红色等。控制光与空气分子等小粒子的相互作用。取决于光的波长，导致白天的天空是蓝色的，晚上的天空是红色的。
+              
+  #             dust_storm: 0 # 决定沙尘暴天气的强度。值的范围为0到100。
+
+  #           calibrated_sensors:
+  #             !include configs/calibrated_sensors.yaml
+  #           description:
+  #             "Town05_Opt  Squared-grid town with cross junctions and a bridge. It has multiple lanes per direction. Useful to perform lane changes. Ideal weather conditions with clear skies, partially cloudy, no precipitation, no wind, no fog, and other special weather phenomena."
+
+  # - 
+  #   map_name: "Town06_Opt"
+  #   map_category: "semantic_prior"
+  #   settings:
+  #     fixed_delta_seconds: 0.01 #采集时间间隔0.01秒,模拟的时间步长
+  #   captures: #log
+  #     - 
+  #       date: "2024-10-14"
+  #       time: "21-10-20"
+  #       timezone: "+0800"
+  #       capture_vehicle: "c6002"
+  #       location: "Town06_Opt"
+  #       scenes: #前两个是测试采集，采集时间均为1s。samples中两张，sweeps中10张。
+  #         - 
+  #           count: 20 #采集场景次数
+  #           custom: False # 为真时指定场景参数
+  #           collect_time: 20 #总的采集时间
+  #           keyframe_time: 0.5 #关键帧samples中0.5s储存一次
+  #           ego_bp_name: "vehicle.tesla.model3"
+  #           weather_mode: "custom" # 指定场景天气情况
+  #           weather:
+  #             cloudiness: 30 # 值范围为0到100，0表示晴朗的天空，100表示完全被云层覆盖
+  #             precipitation: 0 # 雨强值在0到100之间，0表示完全没有，100表示大雨
+  #             precipitation_deposits: 0 # 积水量，范围0-100，决定了道路上积水水洼的产生，值为0时完全没有积水，为100时道路完全被水覆盖，注意水洼会在固定的地点生成，没有随机性
+
+  #             wind_intensity: 0 # 风强，范围0-100，控制风的强度，从0-100为无风到强风，风会影响雨和树叶的效果。
+
+  #             sun_azimuth_angle: 180 # 太阳方位角，范围0-360，单位为角度，值为0时为UE引擎定义的天空球原点
+  #             sun_altitude_angle: 80 # 太阳高度角，范围-90-+90，单位为角度，-90时代表午夜，+90时代表正午
+
+  #             fog_density: 0 # 雾浓度或厚度。它只影响RGB相机传感器。值的范围为0到100
+  #             fog_distance: 0 #雾开始距离。值的范围从0到无穷大，雾气到摄像机的距离
+  #             fog_falloff: 0 # 从0到无穷大的雾密度（如特定质量）。值越大，雾越浓越重，雾的高度也越小。
+
+  #             wetness: 0 # 湿度，范围0-100，可能会引起镜头水雾等，注意此属性只影响RGB相机的输出
+
+  #             scattering_intensity: 0 # 散射强度，控制被散射而在雾中形成光柱的光的比例，值为0时完全不散射
+  #             mie_scattering_scale: 0 # 米氏散射强度，控制米氏散射的强度（出现圆环型光晕的概率），值为0时完全不散射
+  #             rayleigh_scattering_scale: 0.0331 #  瑞利散射强度，控制瑞利散射强度，影响傍晚天空红色等。控制光与空气分子等小粒子的相互作用。取决于光的波长，导致白天的天空是蓝色的，晚上的天空是红色的。
+              
+  #             dust_storm: 0 # 决定沙尘暴天气的强度。值的范围为0到100。
+
+  #           calibrated_sensors:
+  #             !include configs/calibrated_sensors.yaml
+  #           description:
+  #             "Town06_Opt  	Long highways with many highway entrances and exits. It also has a Michigan left. Ideal weather conditions with clear skies, partially cloudy, no precipitation, no wind, no fog, and other special weather phenomena."
+
+  # - 
+  #   map_name: "Town07_Opt"
+  #   map_category: "semantic_prior"
+  #   settings:
+  #     fixed_delta_seconds: 0.01 #采集时间间隔0.01秒,模拟的时间步长
+  #   captures: #log
+  #     - 
+  #       date: "2024-10-14"
+  #       time: "21-10-20"
+  #       timezone: "+0800"
+  #       capture_vehicle: "c7002"
+  #       location: "Town07_Opt"
+  #       scenes: #前两个是测试采集，采集时间均为1s。samples中两张，sweeps中10张。
+  #         - 
+  #           count: 20 #采集场景次数
+  #           custom: False # 为真时指定场景参数
+  #           collect_time: 20 #总的采集时间
+  #           keyframe_time: 0.5 #关键帧samples中0.5s储存一次
+  #           ego_bp_name: "vehicle.tesla.model3"
+  #           weather_mode: "custom" # 指定场景天气情况
+  #           weather:
+  #             cloudiness: 30 # 值范围为0到100，0表示晴朗的天空，100表示完全被云层覆盖
+  #             precipitation: 0 # 雨强值在0到100之间，0表示完全没有，100表示大雨
+  #             precipitation_deposits: 0 # 积水量，范围0-100，决定了道路上积水水洼的产生，值为0时完全没有积水，为100时道路完全被水覆盖，注意水洼会在固定的地点生成，没有随机性
+
+  #             wind_intensity: 0 # 风强，范围0-100，控制风的强度，从0-100为无风到强风，风会影响雨和树叶的效果。
+
+  #             sun_azimuth_angle: 180 # 太阳方位角，范围0-360，单位为角度，值为0时为UE引擎定义的天空球原点
+  #             sun_altitude_angle: 80 # 太阳高度角，范围-90-+90，单位为角度，-90时代表午夜，+90时代表正午
+
+  #             fog_density: 0 # 雾浓度或厚度。它只影响RGB相机传感器。值的范围为0到100
+  #             fog_distance: 0 #雾开始距离。值的范围从0到无穷大，雾气到摄像机的距离
+  #             fog_falloff: 0 # 从0到无穷大的雾密度（如特定质量）。值越大，雾越浓越重，雾的高度也越小。
+
+  #             wetness: 0 # 湿度，范围0-100，可能会引起镜头水雾等，注意此属性只影响RGB相机的输出
+
+  #             scattering_intensity: 0 # 散射强度，控制被散射而在雾中形成光柱的光的比例，值为0时完全不散射
+  #             mie_scattering_scale: 0 # 米氏散射强度，控制米氏散射的强度（出现圆环型光晕的概率），值为0时完全不散射
+  #             rayleigh_scattering_scale: 0.0331 #  瑞利散射强度，控制瑞利散射强度，影响傍晚天空红色等。控制光与空气分子等小粒子的相互作用。取决于光的波长，导致白天的天空是蓝色的，晚上的天空是红色的。
+              
+  #             dust_storm: 0 # 决定沙尘暴天气的强度。值的范围为0到100。
+
+  #           calibrated_sensors:
+  #             !include configs/calibrated_sensors.yaml
+  #           description:
+  #             "Town07_Opt  A rural environment with narrow roads, barns and hardly any traffic lights. Ideal weather conditions with clear skies, partially cloudy, no precipitation, no wind, no fog, and other special weather phenomena."
+
+
+

@@ -43,8 +43,8 @@ sensors:
       y: -0.17321
       z: 1.8
     rotation: 
-      yaw: -60
-      pitch: 0.0
+      yaw: -60.0007
+      pitch: -0.0
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -57,8 +57,8 @@ sensors:
       y: -0.1
       z: 1.8
     rotation: 
-      yaw: -30
-      pitch: 0.0
+      yaw: -29.9993
+      pitch: -0.0
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -71,8 +71,8 @@ sensors:
       y: 0.0
       z: 1.8
     rotation: 
-      yaw: 0
-      pitch: 0.0
+      yaw: 0.0
+      pitch: -0.0
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -85,8 +85,8 @@ sensors:
       y: 0.1
       z: 1.8
     rotation: 
-      yaw: 30
-      pitch: 0.0
+      yaw: 29.9993
+      pitch: -0.0
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -99,8 +99,8 @@ sensors:
       y: 0.17321
       z: 1.8
     rotation: 
-      yaw: 60
-      pitch: 0.0
+      yaw: 60.0007
+      pitch: -0.0
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -109,12 +109,12 @@ sensors:
     name: "MULTI_CAM_RGB_5"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.34483
-      y: -0.1673
-      z: 1.9
+      x: 0.35
+      y: -0.1866
+      z: 1.85176
     rotation: 
-      yaw: -75
-      pitch: 0.0
+      yaw: -74.9998
+      pitch: 14.99913
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -123,12 +123,12 @@ sensors:
     name: "MULTI_CAM_RGB_6"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.42247
-      y: -0.12247
-      z: 1.9
+      x: 0.4366
+      y: -0.1366
+      z: 1.85176
     rotation: 
-      yaw: -45
-      pitch: 0.0
+      yaw: -45.0
+      pitch: 14.99921
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -137,12 +137,12 @@ sensors:
     name: "MULTI_CAM_RGB_7"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.4673
-      y: -0.04483
-      z: 1.9
+      x: 0.4866
+      y: -0.05
+      z: 1.85176
     rotation: 
-      yaw: -15
-      pitch: 0.0
+      yaw: -15.0002
+      pitch: 14.99913
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -151,12 +151,12 @@ sensors:
     name: "MULTI_CAM_RGB_8"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.4673
-      y: 0.04483
-      z: 1.9
+      x: 0.4866
+      y: 0.05
+      z: 1.85176
     rotation: 
-      yaw: 15
-      pitch: 0.0
+      yaw: 15.0002
+      pitch: 14.99913
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -165,12 +165,12 @@ sensors:
     name: "MULTI_CAM_RGB_9"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.42247
-      y: 0.12247
-      z: 1.9
+      x: 0.4366
+      y: 0.1366
+      z: 1.85176
     rotation: 
-      yaw: 45
-      pitch: 0.0
+      yaw: 45.0
+      pitch: 14.99921
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -179,12 +179,12 @@ sensors:
     name: "MULTI_CAM_RGB_10"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.34483
-      y: 0.1673
-      z: 1.9
+      x: 0.35
+      y: 0.1866
+      z: 1.85176
     rotation: 
-      yaw: 75
-      pitch: 0.0
+      yaw: 74.9998
+      pitch: 14.99913
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -193,12 +193,12 @@ sensors:
     name: "MULTI_CAM_RGB_11"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.34483
-      y: -0.1673
-      z: 1.7
+      x: 0.35
+      y: -0.1866
+      z: 1.74824
     rotation: 
-      yaw: -75
-      pitch: 0.0
+      yaw: -74.9998
+      pitch: -14.99913
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -207,12 +207,12 @@ sensors:
     name: "MULTI_CAM_RGB_12"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.42247
-      y: -0.12247
-      z: 1.7
+      x: 0.4366
+      y: -0.1366
+      z: 1.74824
     rotation: 
-      yaw: -45
-      pitch: 0.0
+      yaw: -45.0
+      pitch: -14.99921
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -221,12 +221,12 @@ sensors:
     name: "MULTI_CAM_RGB_13"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.4673
-      y: -0.04483
-      z: 1.7
+      x: 0.4866
+      y: -0.05
+      z: 1.74824
     rotation: 
-      yaw: -15
-      pitch: 0.0
+      yaw: -15.0002
+      pitch: -14.99913
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -235,12 +235,12 @@ sensors:
     name: "MULTI_CAM_RGB_14"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.4673
-      y: 0.04483
-      z: 1.7
+      x: 0.4866
+      y: 0.05
+      z: 1.74824
     rotation: 
-      yaw: 15
-      pitch: 0.0
+      yaw: 15.0002
+      pitch: -14.99913
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -249,12 +249,12 @@ sensors:
     name: "MULTI_CAM_RGB_15"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.42247
-      y: 0.12247
-      z: 1.7
+      x: 0.4366
+      y: 0.1366
+      z: 1.74824
     rotation: 
-      yaw: 45
-      pitch: 0.0
+      yaw: 45.0
+      pitch: -14.99921
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions
@@ -263,12 +263,12 @@ sensors:
     name: "MULTI_CAM_RGB_16"
     bp_name: 'sensor.camera.rgb'
     location: 
-      x: 0.34483
-      y: 0.1673
-      z: 1.7
+      x: 0.35
+      y: 0.1866
+      z: 1.74824
     rotation: 
-      yaw: 75
-      pitch: 0.0
+      yaw: 74.9998
+      pitch: -14.99913
       roll: 0.0
     options: 
       <<: *CameraRGBBaseOptions

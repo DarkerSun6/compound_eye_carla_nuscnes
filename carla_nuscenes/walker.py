@@ -4,7 +4,7 @@ class Walker(Actor):
     def __init__(self,destination=None,**args):
         super().__init__(**args)
         if self.blueprint.has_attribute('is_invincible'):
-            self.blueprint.set_attribute('is_invincible', 'false')
+            self.blueprint.set_attribute('is_invincible', 'false')  # 取消无敌
 
         if destination is None:
             self.destination = self.world.get_random_location_from_navigation()
@@ -32,4 +32,9 @@ class Walker(Actor):
         return self.actor.bounding_box.get_world_vertices(self.actor.get_transform())
 
     def get_size(self):
-        return self.actor.bounding_box.extent*2
+        x = (self.actor.bounding_box.extent.x) * 2.4
+        y = (self.actor.bounding_box.extent.y) * 2.4
+        z = (self.actor.bounding_box.extent.z) * 2.2
+        extent = carla.Vector3D(x,y,z)
+        
+        return extent
