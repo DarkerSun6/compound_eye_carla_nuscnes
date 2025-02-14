@@ -1,0 +1,238 @@
+  -
+    name: "MULTI_CAM_RGB_0"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.4
+      y: -0.17321
+      z: 1.8
+    rotation: 
+      yaw: -60.0007
+      pitch: -0.0
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_1"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.47321
+      y: -0.1
+      z: 1.8
+    rotation: 
+      yaw: -29.9993
+      pitch: -0.0
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_2"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.5
+      y: 0.0
+      z: 1.8
+    rotation: 
+      yaw: 0.0
+      pitch: -0.0
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_3"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.47321
+      y: 0.1
+      z: 1.8
+    rotation: 
+      yaw: 29.9993
+      pitch: -0.0
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_4"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.4
+      y: 0.17321
+      z: 1.8
+    rotation: 
+      yaw: 60.0007
+      pitch: -0.0
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_5"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.35
+      y: -0.1866
+      z: 1.85176
+    rotation: 
+      yaw: -74.9998
+      pitch: 14.99913
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_6"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.4366
+      y: -0.1366
+      z: 1.85176
+    rotation: 
+      yaw: -45.0
+      pitch: 14.99921
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_7"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.4866
+      y: -0.05
+      z: 1.85176
+    rotation: 
+      yaw: -15.0002
+      pitch: 14.99913
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_8"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.4866
+      y: 0.05
+      z: 1.85176
+    rotation: 
+      yaw: 15.0002
+      pitch: 14.99913
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_9"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.4366
+      y: 0.1366
+      z: 1.85176
+    rotation: 
+      yaw: 45.0
+      pitch: 14.99921
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_10"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.35
+      y: 0.1866
+      z: 1.85176
+    rotation: 
+      yaw: 74.9998
+      pitch: 14.99913
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_11"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.35
+      y: -0.1866
+      z: 1.74824
+    rotation: 
+      yaw: -74.9998
+      pitch: -14.99913
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_12"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.4366
+      y: -0.1366
+      z: 1.74824
+    rotation: 
+      yaw: -45.0
+      pitch: -14.99921
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_13"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.4866
+      y: -0.05
+      z: 1.74824
+    rotation: 
+      yaw: -15.0002
+      pitch: -14.99913
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_14"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.4866
+      y: 0.05
+      z: 1.74824
+    rotation: 
+      yaw: 15.0002
+      pitch: -14.99913
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_15"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.4366
+      y: 0.1366
+      z: 1.74824
+    rotation: 
+      yaw: 45.0
+      pitch: -14.99921
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
+  -
+    name: "MULTI_CAM_RGB_16"
+    bp_name: 'sensor.camera.rgb'
+    location: 
+      x: 0.35
+      y: 0.1866
+      z: 1.74824
+    rotation: 
+      yaw: 74.9998
+      pitch: -14.99913
+      roll: 0.0
+    options: 
+      <<: *CameraRGBBaseOptions
+      "fov": "60"
